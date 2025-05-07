@@ -1,0 +1,142 @@
+/* Genel stil */
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f0f0f5;
+    color: #222;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .dark-mode {
+    background-color: #121212;
+    color: #f5f5f5;
+  }
+  
+  #theme-toggle {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    padding: 10px 16px;
+    background-color: #9c27b0;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  
+  #theme-toggle:hover {
+    background-color: #7b1fa2;
+  }
+  
+  /* Konteyner */
+  #container {
+    max-width: 800px;
+    margin: 80px auto;
+    padding: 20px;
+    border-radius: 12px;
+    background-color: #ffffff;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+  }
+  
+  .dark-mode #container {
+    background-color: #1f1a2e;
+  }
+  
+  /* Başlık */
+  #container h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #6a1b9a;
+  }
+  
+  /* Input alanı */
+  #input-area {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-bottom: 30px;
+    background-color: #f3f3f3;
+    padding: 20px;
+    border-radius: 12px;
+    transition: background-color 0.3s;
+  }
+  
+  .dark-mode #input-area {
+    background-color: #2a2744;
+  }
+  
+  #input-area input {
+    padding: 12px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+  }
+  
+  #input-area button {
+    padding: 12px;
+    background-color: #9c27b0;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  
+  #input-area button:hover {
+    background-color: #7b1fa2;
+  }
+  
+  /* Tablo */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  thead th {
+    background-color: #9c27b0;
+    color: white;
+    padding: 12px;
+    border-radius: 4px 4px 0 0;
+  }
+  
+  tbody td {
+    padding: 12px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .completed {
+    text-decoration: line-through;
+    color: gray;
+  }
+  
+  /* Butonlar */
+  .complete-btn {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    margin-right: 5px;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  
+  .complete-btn:hover {
+    background-color: #388e3c;
+  }
+  
+  .delete-btn {
+    background-color: #f44336;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  
+  .delete-btn:hover {
+    background-color: #c62828;
+  }
+  

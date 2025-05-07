@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Yapılacaklar Listesi</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <button id="theme-toggle">Tema Değiştir</button>
+
+  <div id="container">
+    <h1>Yapılacaklar Listesi</h1>
+
+    <div id="input-area">
+      <input type="text" id="input-task" placeholder="Yapılacak iş">
+      <input type="text" id="input-frequency" placeholder="Sıklık (örn: Her gün)">
+      <button id="add-btn">Ekle</button>
+    </div>
+
+    <table>
+      <thead>
+        <tr>
+          <th>Yapılacak İş</th>
+          <th>Sıklık</th>
+          <th>İşlem</th>
+        </tr>
+      </thead>
+      <tbody id="task-list">
+        <!-- Görevler buraya eklenecek -->
+      </tbody>
+    </table>
+  </div>
+
+  <script src="index.js"></script>
+</body>
+</html>
